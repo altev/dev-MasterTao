@@ -4,6 +4,13 @@ burger.addEventListener('click', function() {
     burger.classList.toggle('is-active')
 })
 
+// slider
+$('.first-screen-slider').slick({
+    dots: true,
+    infinite: true,
+    appendArrows: '.first-screen-nav',
+});
+
 
 // $(document).ready(function() {
 //     $('.first-screen').slick({
