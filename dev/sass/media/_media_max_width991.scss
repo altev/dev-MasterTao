@@ -1,8 +1,13 @@
 @media screen and (max-width: 991px) {
-
+    // header
+    .container-xxl {
+        padding: 0;
+    }
+    
     .container {
         padding-right: 20px;
         padding-left: 20px;
+
     }
 
     a.navbar-brand {
@@ -19,7 +24,7 @@
     header {
         .navbar {
             padding-top: 15px;
-            padding-bottom: 17px;
+            padding-bottom: 0;
         }
 
         .btn {
@@ -51,5 +56,82 @@
         padding: 37px 0 22px;
     }
 
+// first-screen
 
+    .first-screen-slider {
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            z-index: 2;
+            .mb-first-screen {
+                margin-bottom: 72px;
+            }
+        }
+        
+        .slick-slide {
+            height: calc(100vh - 72px );
+            display: flex;
+            align-items: center;
+            background-position: center;
+            &::before {
+                content: "";
+                position: absolute;
+                z-index: 1;
+                background: #0000000e;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+            
+        }
+        .first-screen-title {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .first-screen-subtitle {
+            font-size: 16px;
+            margin-bottom: 18px;
+
+            
+        }
+        
+    }
+    //form
+    .container .calc-form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .calc-decoration {
+    display: none;
+    }
+
+    .calc-form {
+        width: 335px;
+        height: auto;
+        padding: 50px 30px 30px 30px;
+        
+    }
+    .btn-lg {
+        padding: 19.4px 34px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .template-title.col-lg-7 h2 {
+        font-size: 24px;
+        line-height: 124.5%;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+        text-align: center;
+        &:after {
+               position: absolute;
+               top: 90%;
+               left: 50%;
+               transform: translate(-50%, 0%);
+           }
+        
+    }
 }
