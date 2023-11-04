@@ -16,5 +16,16 @@
             }
         }
     }
-    
+    .calc .col-lg-7 h2::after {
+        content: "";
+        position: static;
+        display: inline-block;
+        width: 85px;
+        height: 2px;
+        margin: 10px 10px 10px 19px;
+        background-color: #89C249;
+    }
+    .calc .template-title:after {
+        display: none;
+    }
 }
