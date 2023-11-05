@@ -2,6 +2,7 @@
     // header
     .container-xxl {
         padding: 0;
+
     }
     
     .container {
@@ -57,6 +58,9 @@
     }
 
 // first-screen
+section.calc {
+    margin-top: 55px;
+}
 
     .first-screen-slider {
         
@@ -66,6 +70,7 @@
             align-items: center;
             text-align: center;
             z-index: 2;
+            padding-bottom: 50px;
             .mb-first-screen {
                 margin-bottom: 72px;
             }
@@ -91,16 +96,22 @@
         .first-screen-title {
             font-size: 32px;
             margin-bottom: 10px;
+            width: 297px;
         }
         .first-screen-subtitle {
             font-size: 16px;
             margin-bottom: 18px;
+            width: 275px;
 
             
         }
         
     }
     //form
+    .pos-checkbox {
+    padding-top: 8px;
+    margin-bottom: 6px;
+}
     .container .calc-form {
         margin-left: auto;
         margin-right: auto;
@@ -134,6 +145,9 @@
            }
         
     }
+    .calc-form {
+    margin-bottom: 60px;
+}
 
     //advantages
     .advantages{

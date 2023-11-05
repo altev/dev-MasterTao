@@ -1,13 +1,8 @@
-section .calc {
-    overflow-x: clip;
-}
-
-
-.template-title {
-    margin-top: 97px;
+.calc .template-title {
 
     h2 {
-        text-transform: uppercase;
+        text-align: start;
+        font-size: 36px;
     }
 }
 
@@ -18,20 +13,19 @@ section .calc {
     border-radius: 20px;
     background-color: #363A4D;
     padding: 50px;
+    margin-bottom: 113px;
 }
 
 .calc-row {
     display: flex;
     align-items: flex-start;
 
-    .calc-decoration {
+    .calc-decoration img {
         margin-left: -30px;
-        margin-bottom: -60px;
-        margin-top: -175px;
-        width: 100%;
-        
+        margin-top: -184px;
+        margin-bottom: -124px;
+        width: 560px;
     }
-
 }
 
 

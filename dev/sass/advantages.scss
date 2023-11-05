@@ -1,9 +1,16 @@
+.advantages-width{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .advantages { 
+    padding-bottom: 70px;
     border-radius: 20px;
     background: linear-gradient(0deg, #363A4D 0%, #363A4D 100%), #F7F7F7;
     .template-title {
         h2 {
             padding-top: 90px;
+            font-size: 36px;
         }
         &:after {
             background-color: $color-primary;
@@ -34,7 +41,7 @@
             object-fit: scale-down;
         }
     }
-    &-text-box {
+    &-title {
         font-size: 18px;
         font-weight: 400;
         max-width: 160px;
