@@ -1,4 +1,6 @@
+
 .delivery {
+    margin-bottom: 92px;
     .delivery-slider {
         .slick-list {
             margin: 0 -15px;
@@ -24,6 +26,7 @@
     }
     
     .card {
+        border: none;
         border-radius: 20px;
         background-color: $bg-secondary;
         max-width: 360px;
