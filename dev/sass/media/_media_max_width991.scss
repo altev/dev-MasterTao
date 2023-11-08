@@ -171,5 +171,28 @@ section.calc {
         }
     
     }
+//delivery
+
+.delivery {
+    margin-top: 54px;
+    margin-bottom: 60px;
+    .card {
+        margin: 0 auto;
+        max-width:335px;
+        .slick-list {
+            margin: 0 -15px 32px;
+        }
+    }
+    .card-content-box .card-button-row{
+        .btn {
+            width: 138px;
+            justify-content: center;
+            padding: 13px 5px;
+        }
+    } 
+    ul.slick-dots {
+        margin-top: 32px;
+    }
+}
     
 }

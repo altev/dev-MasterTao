@@ -19,6 +19,31 @@ $('.first-screen-slider').slick({
       ]
 });
 
+$(".delivery-slider").slick({
+	dots: false,
+	infinite: true,
+	speed: 300,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	responsive: [
+		{
+			breakpoint: 1350,
+			settings: {
+				slidesToShow: 2,
+			},
+		},
+		{
+			breakpoint: 991,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				dots: true,
+				arrows: false,
+			},
+		},
+	],
+});
+
 //upload-file
 
 document.getElementById('fileInput').onchange = function () {
