@@ -149,9 +149,17 @@ section.calc {
     margin-bottom: 60px;
 }
 
+.section-background::before {
+    left: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 0;
+    
+}
+
     //advantages
     .advantages{
-        border-radius: 0;
+        margin-bottom: 54px;
         .template-title h2 {
             padding-top: 55px;
             font-size: 24px;   
@@ -164,12 +172,6 @@ section.calc {
             margin: 0 auto;
             line-height: 124.5%;
         }
-    }
-    .advantages{
-        &.container-xxl {
-            padding-bottom: 60px;
-        }
-    
     }
 //delivery
 
@@ -203,6 +205,40 @@ section.calc {
     border-radius: 0;
     padding-top: 54px;
     padding-bottom: 0;
+}
+// about
+.about-company .template-title h2 {
+    font-size: 24px;
+}
+.about-company .template-title:after {
+    left: 50%;
+}
+
+.about-company {
+    .template-title {
+        text-align: center;
+    }
+    padding: 54px 0 54px;
+    p {
+        text-align: justify;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 149%;
+        span {
+            font-weight: 400;
+        }
+    }
+    .img-box {
+        margin-top: 25px;
+        
+        img{
+            width: 275px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        } 
+    }
 }
 }
 

@@ -388,7 +388,19 @@ ul.slick-dots {
 
 }
 
+.section-background::before {
+    content: "";
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    top: 0;
+    height: 100%;
+    border-radius: 20px;
+    background: #363a4d;
+    z-index: -1;
+    // max-width: 1920px;
 
+}
 
 
 // section {

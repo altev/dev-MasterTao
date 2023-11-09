@@ -5,19 +5,25 @@
     margin: 0;
     z-index: 1;
 }
-.services .card-img-box {
-    height: 240px;
+.card {
+    min-height: 482px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 .services {
+    position: relative;
+    max-width: 1850px;
+    margin: 0 auto;
+    .template-title:after { 
+        background-color: $color-primary;
+    }
     .delivery {
         margin-bottom: 0;
     }
-    border-radius: 20px;
     padding-top: 90px;
     padding-bottom: 100px;;
-    background: linear-gradient(0deg, #363A4D 0%, #363A4D 100%), #F7F7F7;
     .card-content-box {
         text-align: left;
         z-index: 1;
