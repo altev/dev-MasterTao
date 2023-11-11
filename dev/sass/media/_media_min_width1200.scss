@@ -26,3 +26,18 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .cooperation .content-box .cooperation-decoration {
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cooperation .btn-coop {
+        margin-left: auto;
+        margin-right: auto
+    }
+    .decoration-about {
+        width: 100%;
+    }
+}
+
