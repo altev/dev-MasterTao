@@ -218,7 +218,7 @@ section.calc {
     .template-title {
         text-align: center;
     }
-    padding: 54px 0 54px;
+    padding: 54px 0 24px;
     p {
         text-align: justify;
         font-size: 16px;
@@ -240,6 +240,32 @@ section.calc {
         } 
     }
 }
+//questions 
+.questions {
+    padding-bottom: 60px;
+}
+.questions .col-lg-8 {
+    margin-bottom: 15px;
+}
+.questions-btn {
+    padding: 19px 34px;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.questions .form-questions {
+    padding: 38px 20px;
+    max-width: 390px;
+    background-color: #363A4D;
+    border-radius: 10px;
+}
+.questions .form-questions .form-title {
+
+    text-align: center;
+    font-weight: 400;
+}
+
 //cooperation
     .cooperation {
         padding-top: 54px;
